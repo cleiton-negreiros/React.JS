@@ -62,11 +62,12 @@ p {
 
 /* GRID */
 .container {
-  margin: auto;
-  width: 100%;
-  max-width: 1140px;
-  position: relative;
-  padding: 0 30px;  
+  box-sizing: border-box; /* para a largura do container não ultrapassar o tamanho da tela */
+  margin: auto; /* centraliza o container */
+  width: 100%; /* para o container ocupar toda a largura da tela */
+  max-width: 1140px; /* largura máxima do container */
+  position: relative; /* para os elementos filhos do container usarem position absolute */
+  padding: 0 30px;  /* margem interna do container */
 }
 
 .al-center {

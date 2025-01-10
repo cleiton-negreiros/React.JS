@@ -1,0 +1,42 @@
+.hero {
+    background-image: url('/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 70px;
+    height: 708px;
+    padding: 50px;
+}
+    
+.hero h1 {
+    font-size: 65px;
+    line-height: 125%;
+}
+    
+.hero-text {
+    width: 40%;
+}
+    
+/* Media queries para responsividade */
+@media (max-width: 768px) { /* 768px é o tamanho do iPad em modo paisagem */
+.hero {
+    height: 500px; /* Diminui a altura do hero */
+    }
+    
+.hero h1 {
+    font-size: 55px; /* Diminui o tamanho da fonte do h1 */
+    }
+    
+.hero-text {
+    width: 50%;
+    }
+
+.hero-text {
+    width: 100%;
+    }
+}
+    
+@media (max-width: 568px) { /* 568px é o tamanho do iPhone 6/7/8 */
+    .hero h1 {
+    font-size: 50px;
+    }
+}
